@@ -1,0 +1,54 @@
+/* Container for centering and padding */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Result section styling */
+.result {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.result h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.result p {
+    color: #555;
+    font-size: 1.2em;
+}
+
+/* Action buttons styling */
+.actions {
+    text-align: center;
+}
+
+.actions button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+    background-color: #0056b3;
+}
